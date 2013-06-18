@@ -36,7 +36,7 @@ cdgit()
 
 ll()
 {
-	ls -l
+	ls -La
 }
 
 mcm()
@@ -56,10 +56,16 @@ acom()
 
 epro()
 {
-	vim ~/.bash_profile
+	vim ~/.bash_profile;
+	cp ~/.bash_profile ~/gfinkprofile;
 }
 
 rpro()
 {
 	. ~/.bash_profile
+}
+
+cpro()
+{
+	cp ~/gfinkprofile/.bash_profile ~/
 }
