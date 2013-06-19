@@ -6,7 +6,8 @@ myhelp()
 {
 	echo "Go to Git repo I am working on (stochfw/ext)"
 	echo "   cdgit"
-
+	echo "cd .."
+	echo "   .."
 	echo "make clean;make"
 	echo "   mcm"
 
@@ -25,6 +26,7 @@ myhelp()
 	echo "Reload bash profile"
 	echo "   rpro"
 }
+alias ..='cd ..'
 TAR()
 {
 	tar -xzf $1

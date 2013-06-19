@@ -1,0 +1,7 @@
+[user]
+	name = Eric Garfinkle
+	email = ericgarfinkle@gmail.com
+[color]
+	diff = auto
+	status = auto
+	interactive = auto
